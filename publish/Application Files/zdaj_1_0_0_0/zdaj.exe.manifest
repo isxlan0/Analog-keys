@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="zdaj.exe" version="1.0.0.0" publicKeyToken="058bfd4133c14db0" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="zdaj" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="zdaj.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 清单选项
+          如果要更改 Windows 用户帐户控制级别，请用以下节点之一替换
+          requestedExecutionLevel 节点。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+          如果要利用文件和注册表虚拟化提供
+          向后兼容性，请删除 requestedExecutionLevel 节点。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="zdaj.exe" size="5008">
+      <assemblyIdentity name="zdaj" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>sEUxGO9Rc8IlKmjF6FjzaCM3u4O3n8AxgT0HlPAM9xg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="zdaj.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=PC\ASUS" issuerKeyHash="2b3209c5ac029de1de26401d960334acd49dc3c7" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ZVF/EXIDCbdAj8NtnoY9Ob9KEdB78UkdFbdLHLml3EE=</DigestValue></Reference></SignedInfo><SignatureValue>MaTJPuhCbnucAZrHGeXwQTOVZcmzIjrtkZrPL/o3XDofbZVP7PjkxnCLY9Ko/D29w9BMtRLoQmUtUNWEY+84IMYFHuRpjEvTxmkTPSu3xx418Z6tlO6Tt1ytcpGoPGGNbHy+pPgPQheN9i8VrukFDHPAS3HlhIjMljbidrQ9TiA=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>wYs2Qh2WDejj9LKJ3ByGaFtv4FvEZtqrzHO5nXDgdsPllCQTCWTSIuryMj4HnB29GVp5ymLGjSd6jtczzldWishoExAL7ujfPUOaguaGAIFC1E4jhQzBTYvGCNim4R9uFqkEuoXO5wutMlqQZYmBM7Dm1FgtSKhfX8uq7diU0+E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="41dca5b91c4bb7151d49f17bd0114abf393d869e6dc38f40b7090372117f5165" Description="" Url=""><as:assemblyIdentity name="zdaj.exe" version="1.0.0.0" publicKeyToken="058bfd4133c14db0" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=PC\ASUS</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>8fhHX9ySkfhTuuaZBKhZAIw0ekFlKK3rhnldeRxpM9k=</DigestValue></Reference></SignedInfo><SignatureValue>ozU5Ea0dH9u8ajzfRDn9+SAECEE5bLt3pnm0rQiOltZFJm6u+VVJz9eises8kG4JqHH3XBx6LUv0jHoyg1uddptHo+urwQRLrnK43KAE9Lqx6EDRsssHjAUgZ46Wtf5SU0qCsQMNy0Fmym2Bnz8cbQXT22yaQaqgKSrgXtVxrko=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>wYs2Qh2WDejj9LKJ3ByGaFtv4FvEZtqrzHO5nXDgdsPllCQTCWTSIuryMj4HnB29GVp5ymLGjSd6jtczzldWishoExAL7ujfPUOaguaGAIFC1E4jhQzBTYvGCNim4R9uFqkEuoXO5wutMlqQZYmBM7Dm1FgtSKhfX8uq7diU0+E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBtTCCAR6gAwIBAgIQF4NV1GTK4ZdCaBhduIwcpjANBgkqhkiG9w0BAQsFADAZMRcwFQYDVQQDHg4AUABDAFwAQQBTAFUAUzAeFw0yMzAxMjYwODMwNDlaFw0yNDAxMjYxNDMwNDlaMBkxFzAVBgNVBAMeDgBQAEMAXABBAFMAVQBTMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDBizZCHZYN6OP0soncHIZoW2/gW8Rm2qvMc7mdcOB2w+WUJBMJZNIi6vIyPgecHb0ZWnnKYsaNJ3qO1zPOV1aKyGgTEAvu6N89Q5qC5oYAgULUTiOFDMFNi8YI2KbhH24WqQS6hc7nC60yWpBliYEzsObUWC1IqF9fy6rt2JTT4QIDAQABMA0GCSqGSIb3DQEBCwUAA4GBADsKvzj5fCNbv9elmy1iA73NhGblMMUt2nQM4aeHSOb0YM4x/8M1U6MGz6AbOYhrH3TrooBrKn+Gzk5+GwYL5TG+RJM+zYV9Z/yvJLD/jD5i9XaV2W534zmk6ArHKNGuxOqUWCCSnL4nAaidJZ1ZAOn9sY4hQRC9XVEzOhzNq4D+</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

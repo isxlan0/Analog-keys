@@ -1,0 +1,12 @@
+C:\Users\ASUS\source\repos\zdaj\bin\Release\zdaj.exe.config
+C:\Users\ASUS\source\repos\zdaj\bin\Release\zdaj.exe.manifest
+C:\Users\ASUS\source\repos\zdaj\bin\Release\zdaj.application
+C:\Users\ASUS\source\repos\zdaj\bin\Release\zdaj.exe
+C:\Users\ASUS\source\repos\zdaj\bin\Release\zdaj.pdb
+C:\Users\ASUS\source\repos\zdaj\obj\Release\zdaj.csproj.AssemblyReference.cache
+C:\Users\ASUS\source\repos\zdaj\obj\Release\zdaj.csproj.SuggestedBindingRedirects.cache
+C:\Users\ASUS\source\repos\zdaj\obj\Release\zdaj.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\zdaj\obj\Release\zdaj.exe.manifest
+C:\Users\ASUS\source\repos\zdaj\obj\Release\zdaj.application
+C:\Users\ASUS\source\repos\zdaj\obj\Release\zdaj.exe
+C:\Users\ASUS\source\repos\zdaj\obj\Release\zdaj.pdb
